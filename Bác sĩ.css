@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+}
+.dautrang {
+    background-color: #fde68a;
+    height: 162px;
+    text-align: center;
+    padding: 40px;
+}
+.dautrang h1{
+    font-size: 36px;
+    color: #78350f;
+}
+.dautrang span{
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #78350f;
+}
+.taskbar {
+    background-color: #fed7aa;
+    text-align: center;
+    height: 42px;
+    padding: 8px;
+}
+.dieuhuong {
+    width: 130px;
+    height: 40px;
+    border: solid #fed7aa 1px;
+    border-radius: 6px;
+    margin-right: 11px;
+    margin-left: 11px;
+    transition: background-color 0.4s ease , color 0.4s ease , margin-left 0.4s ease , margin-right 0.4s ease , padding 0.4s ease , boder-radius 0.4s ease ;
+}
+#trangchu:hover {
+    background-color: #c2410c;
+    color: white;
+    width: 36px;
+    height: 20px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+#gioithieu:hover {
+    background-color: #c2410c;
+    color: white;
+    width: 36px;
+    height: 20px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#bacsi:hover {
+    background-color: #c2410c;
+    color: white;
+    width: 36px;
+    height: 20px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.tieudenoidung {
+    text-align: center;
+    font-size: 28px;
+    color: #92400e;
+}
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+main {
+    background-color: #fff7ed;
+    text-align: center;
+    
+}
+.doctor {
+    width: 260px;
+    height: 260px;
+    border: solid 1px white;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 20px 10px;
+    transition: transform 0.4s ease;
+}
+.doctor h3 {
+    color: #78350f;
+}
+.doctor p {
+    color: #92400e;
+}
+.doctor span {
+    color: gray;
+}
+.doctor:hover {
+    background-color: #fffbeb;
+    bottom: 10px;
+    transform: translateY(-10px);
+}
+footer {
+    background-color: #78350f;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px;
+}
